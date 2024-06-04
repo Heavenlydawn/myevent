@@ -14,7 +14,7 @@ const Header = () => {
         <Link href="/about">About Us</Link>
       </div>
 
-      <div>
+      <div className="flex items-center gap-2">
         <Link
           href="/login"
           className="text-[#005A9B] font-bold text-base p-4 bg-slate-50 rounded "
