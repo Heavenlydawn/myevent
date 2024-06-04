@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+  width: calc(100vw - 20px);
+  max-width: 1440px;
+  margin: 0 auto;
+}
 #hero {
   background: url("../../public/images/HeroImage.svg") no-repeat center center;
   background-size: cover;

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="fixed w-full flex items-center justify-around p-8 bg-white shadow-custom-shadow">
+    <header className=" w-full mx-auto flex items-center justify-around p-8 bg-white shadow-custom-shadow">
       <h1 className="text-3xl font-bold">BookMyEvent</h1>
 
       <div className="flex gap-4 text-base font-bold">
