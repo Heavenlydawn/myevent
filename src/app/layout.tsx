@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Livvic } from "next/font/google"; 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const livvic = Livvic({
+  subsets: ["latin"],
+  weight: "100"
+});
 
 export const metadata: Metadata = {
   title: "MyEvent",
@@ -16,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${livvic.className}`}>{children}</body>  {/* Apply both fonts */}
     </html>
   );
 }
