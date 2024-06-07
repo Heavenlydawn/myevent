@@ -33,9 +33,9 @@ const PricingCrumbs: React.FC<PricingProps> = ({
   rightArrow,
 }) => {
   return (
-    <section className="text-[#005a9b] max-w-[1280px] mx-auto">
+    <section className="text-[#005a9b] max-w-[1000px] mx-auto">
       <h1 className="text-4xl font-bold mb-4 text-black">{eventDesc}</h1>
-      <div className="flex items-center justify-between my-8">
+      <div className="flex items-center justify-between my-12">
         <div>
           <Image src={image} alt={title} width={500} height={500} />
         </div>

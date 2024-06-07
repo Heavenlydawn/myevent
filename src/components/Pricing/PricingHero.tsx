@@ -40,9 +40,9 @@ const PricingHero = () => {
     },
     {
       key: 3,
-      eventDesc: "Queen colby tables and chairs",
+      eventDesc: "Tables and chairs",
       image: Pricing3,
-      title: "Gold Star hall",
+      title: "Queen colby T and C",
       detail: "Here is a description of this event category",
       status: "STATUS",
       statusInfo: "Available ",
@@ -71,7 +71,7 @@ const PricingHero = () => {
   ];
   return (
     <div>
-        <h1 className="text-[#005a9b] text-5xl mb-24 mt-12 ml-24 font-bold">Pricing</h1>
+        <h1 className="text-[#005a9b] text-5xl mb-24 mt-12  font-bold">Pricing</h1>
       {pricings.map((pricing) => (
         <PricingCrumbs
           key={pricing.key}
