@@ -16,7 +16,7 @@ const Login = () => {
         </Link>
       </div>
 
-      <div className="max-w-[700px] mx-auto">
+      <div className="max-w-[546px] mx-auto">
         <h1 className="text-center text-3xl my-24 font-bold">Login</h1>
 
         <form action="">
