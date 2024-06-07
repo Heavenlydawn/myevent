@@ -20,6 +20,7 @@ const buttonVariants = cva(
         link: "text-slate-900 underline-offset-4 hover:underline dark:text-slate-50",
         myevent:"bg-[#005A9B] p-4 text-white font-bold rounded",
         myeventoutline:"p-4 text-[#005A9B] font-bold rounded border-[#005A9B]",
+        myeventblue:"p-4 text-white font-bold rounded bg-[#005A9B]",
       },
       size: {
         default: "h-10 px-4 py-2",
